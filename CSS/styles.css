@@ -1,0 +1,156 @@
+/***************************GENERAL******************************/
+
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    text-align: center;
+    color: #40514e;
+}
+
+h1{
+    font-family: 'Smooch', serif;
+    font-size: 5.625rem;
+    margin: auto 0 auto ;
+    color: #66bfbf;
+}
+
+h2 {
+    font-weight: normal;
+    color: #66bfbf;
+    font-size: 2.5rem;
+}
+h3
+{
+    font-family: 'Rubik Glitch', serif;
+    font-size: 1.5rem;
+    color: #11999e;
+}
+
+a {
+    color: #11999e;
+    font-family: 'roboto slab', serif;
+    text-decoration: none;
+}
+a:hover {
+  color: #EAF6F6;
+}
+
+p {
+  font-size: 0.80rem;
+  line-height: 2;
+}
+
+hr {
+  width: 5%;
+  border-width: 10px;
+  border-style: none;
+  border-top-style: dotted;
+  border-top-color: #eaf6f6;
+  margin: 100px auto;
+}
+
+span {
+  color: black;
+}
+/***************************CLASS******************************/
+
+
+.btn {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  background: #11cdd4;
+  background-image: -webkit-gradient(top, #11cdd4, #11999e);
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image:    -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image:     -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image:      -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image:         linear-gradient(to bottom, #11cdd4, #11999e);
+}
+
+.btn:hover {
+  text-decoration: none;
+  background: #30e3cb;
+  background-image: -webkit-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image:    -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image:     -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image:      -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image:         linear-gradient(to bottom, #30e3cb, #2bc4ad);
+}
+
+.bottom-container {
+  height: 150px;
+  background-color: #66bfbf;
+}
+
+.cloud1 {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.cloud2 {
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+.contact-me {
+    margin: 0 auto 100px auto;
+}
+
+.footer-copy {
+  font-size: 0.75rem;
+  color: #eaf6f6;
+}
+
+.footer-link {
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0 30px 0 30px;
+}
+
+.mypic {
+  margin-top: 30px;
+  width: 25%;
+  border-radius: 190px;
+}
+
+.profile{
+  margin: auto 300px auto 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.skillimg {
+  float: left;
+  width: 20%;
+  margin-right: 30px;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  background-color: #e4f6f6 ;
+}
+
+.trainingimg {
+  float: right;
+  width: 20%;
+  margin-right: 30px;
+}
+
+
+
+/***************************ID******************************/
